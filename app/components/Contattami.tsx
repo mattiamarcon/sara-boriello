@@ -44,29 +44,6 @@ export default function ContactSection() {
     }, 1500)
   }
 
-  const contactInfo = [
-    {
-      icon: <MapPin className="h-5 w-5 text-primary-dark" />,
-      title: "Indirizzo",
-      details: "Via del Fitness 123, 00100 Roma",
-    },
-    {
-      icon: <Phone className="h-5 w-5 text-primary-dark" />,
-      title: "Telefono",
-      details: "+39 123 456 7890",
-    },
-    {
-      icon: <Mail className="h-5 w-5 text-primary-dark" />,
-      title: "Email",
-      details: "info@sarapersonaltraining.it",
-    },
-    {
-      icon: <Clock className="h-5 w-5 text-primary-dark" />,
-      title: "Orari",
-      details: "Lun-Ven: 7:00-21:00, Sab: 9:00-18:00",
-    },
-  ]
-
   return (
     <section id="contatti" className="py-20 bg-gray-50 ">
       <div className="container mx-auto px-4">

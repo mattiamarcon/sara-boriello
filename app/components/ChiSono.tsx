@@ -23,7 +23,7 @@ export default function ChiSono() {
             <h2 className="text-3xl md:text-4xl font-bold text-first mb-6">Chi Sono</h2>
             <p className="text-lg text-gray-700 mb-6">
               Sono Sara, personal trainer certificata con anni di esperienza nel settore del fitness e del benessere. La
-              mia missione è aiutare le persone a trasformare il loro corpo e la loro vita attraverso l'allenamento
+              mia missione è aiutare le persone a trasformare il loro corpo e la loro vita attraverso l&apos;allenamento
               personalizzato e un approccio olistico al benessere.
             </p>
             <p className="text-lg text-gray-700  mb-8">
