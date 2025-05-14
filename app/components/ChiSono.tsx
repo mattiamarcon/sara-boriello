@@ -16,7 +16,7 @@ export default function ChiSono() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative h-[500px] rounded-lg overflow-hidden">
-            <Image src="/chiSono2.jpg" alt="Personal Trainer" fill className="object-cover" />
+            <Image src="/manubrio.jpg" alt="Personal Trainer" fill className="object-cover" />
           </div>
 
           <div>
