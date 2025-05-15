@@ -179,7 +179,7 @@ export default function CardStackAdvanced() {
                     )}
                     onClick={isTop ? rotateCards : undefined}
                   >
-                    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-xl overflow-hidden">
+                    <div className="bg-white rounded-xl shadow-xl overflow-hidden">
                       <div className="grid grid-cols-1 md:grid-cols-3">
                         {card.image && !isMobile && (
                           <div className="relative h-64 md:h-auto">
@@ -199,7 +199,7 @@ export default function CardStackAdvanced() {
                           <div>
                             <div className="flex items-start mb-4">
                               <Quote className="h-6 w-6 md:h-8 md:w-8 text-primary-light mr-2 flex-shrink-0 rotate-180" />
-                              <p className="text-gray-700 dark:text-gray-300 italic text-sm md:text-base">
+                              <p className="text-gray-700 italic text-sm md:text-base">
                                 {isMobile
                                   ? card.content.length > 120
                                     ? card.content.substring(0, 120) + "..."
@@ -210,7 +210,7 @@ export default function CardStackAdvanced() {
                           </div>
                           <div className="mt-4">
                             <p className="font-semibold text-primary-dark text-base md:text-lg">{card.name}</p>
-                            <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">{card.role}</p>
+                            <p className="text-xs md:text-sm text-gray-500 ">{card.role}</p>
                           </div>
                         </div>
                       </div>
