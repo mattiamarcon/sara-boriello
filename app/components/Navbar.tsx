@@ -60,7 +60,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image src="/logo.svg" alt="Sara Personal Training" width={50} height={50} className="h-12 w-auto" />
-          <span className="ml-3 text-2xl font-semibold text-first hidden sm:inline-block">Sara Boriello Trainer</span>
+          <span className="ml-3 text-2xl font-semibold text-first hidden sm:inline-block">Sara Borriello Trainer</span>
         </Link>
 
         {/* Desktop Navigation */}
